@@ -20,6 +20,10 @@ Após os containers serem iniciados, a API pode ser acessada em http://localhost
 
 Pronto! Agora basta testar as requisições na coleção que foi enviada junto ao teste!
 
+A coleção está nomeada como "CollectionInsomnia.json"
+
+Para visualizar o texto de explicação de decisões e expansões do projeto "ProjectExpanation.txt"
+
 ## Construído com
 
 * [PHP](https://www.php.net/)

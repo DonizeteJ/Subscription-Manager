@@ -1,0 +1,21 @@
+O Sistema foi desenvolvido de acordo com uma análise pessoal do problema proposto no teste,
+por exemplo a citação da operadora de telefonia me levou a relembrar como funcionam assinaturas
+de telefonias reais, onde a alocação de assinaturas e produtos criariam planos N para N,
+outro ponto foi como o preço seria apresentado, por uma soma dos produtos presentes no plano,
+ou por um valor específico da assinatura criada, optei pela segunda analisando mais uma vez
+planos existentes na vida real, onde os valores são sim relacionados aos produtos presentes
+mas não uma soma por assim dizer e sim uma leitura do que o pacote entrega pro cliente,
+utilizei o Design Pattern de "Services e Repositories" por que é um padrão que traz uma facilidade
+no entendimento, manutenção e desenvolvimento do código e também por que é muito bom de utilizar,
+utilizei o Sanctum para realizar a autenticação da API por ser um pacote bem fácil e ágil de
+aplicar, o sail também segue no mesmo caminho, facilidade e agilidade para subir um projeto.
+
+Sobre as possíveis expansões que faria no projeto:
+-Criaria um Crud completo (além de listar e detalhar) de usuários para que novos usuários
+pudessem ser criados e utilizados.
+-Também usaria o Laravel Breeze para trabalhar com roles para esses usuários.
+-Usaria interfaces nos repositórios, foi algo que deixei de fazer para poupar tempo.
+-Faria o update dos planos de assinatura, não foi feito também por tempo, eu poderia ter feito
+update somente dos dados do plano, bloqueando a alteração dos produtos por essa rota, porém
+ficaria um update incompleto e logo optei por não inserir.
+-Aplicaria testes unitários.
