@@ -8,7 +8,9 @@ mas não uma soma por assim dizer e sim uma leitura do que o pacote entrega pro 
 utilizei o Design Pattern de "Services e Repositories" por que é um padrão que traz uma facilidade
 no entendimento, manutenção e desenvolvimento do código e também por que é muito bom de utilizar,
 utilizei o Sanctum para realizar a autenticação da API por ser um pacote bem fácil e ágil de
-aplicar, o sail também segue no mesmo caminho, facilidade e agilidade para subir um projeto.
+aplicar, o sail também segue no mesmo caminho, facilidade e agilidade para subir um projeto,
+utilizei o Makefile para os comandos iniciais por uma preferência criada a partir de experiências
+anteriores de trabalho, sempre preferi criar um comando mais simplificado para o projeto.
 
 Sobre as possíveis expansões que faria no projeto:
 -Criaria um Crud completo (além de listar e detalhar) de usuários para que novos usuários
