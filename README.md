@@ -20,7 +20,9 @@ Após os containers serem iniciados, a API pode ser acessada em http://localhost
 
 Pronto! Agora basta testar as requisições na coleção que foi enviada junto ao teste!
 
-A coleção está nomeada como "CollectionInsomnia.json"
+A coleção está nomeada como "CollectionInsomnia.json" (O Token gerado na autenticação deveria ir
+automaticamente para a header, mas parece que ao exportar a collection, esse script deixa de funcionar,
+neste caso, só substituir o script no índice "Authorization" da header das rotas protegidas)
 
 Para visualizar o texto de explicação de decisões e expansões do projeto "ProjectExpanation.txt"
 
