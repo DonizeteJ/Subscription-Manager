@@ -1,6 +1,4 @@
-# Teste técnico VExpenses
-
-Obs.: O README foi escrito visando a execução do projeto em máquinas **Linux**.
+# Sistema de gerencimaneto de assinaturas
 
 ## Setup do projeto 🚀
 
