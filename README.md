@@ -24,7 +24,7 @@ A coleção está nomeada como "CollectionInsomnia.json" (O Token gerado na aute
 automaticamente para a header, mas parece que ao exportar a collection, esse script deixa de funcionar,
 neste caso, basta substituir o script no índice "Authorization" da header das rotas protegidas)
 
-Para visualizar o texto de explicação de decisões e expansões do projeto "ProjectExpanation.txt"
+Para visualizar o texto de explicação de decisões e expansões do projeto "ProjectExplanation.txt"
 
 ## Construído com
 
